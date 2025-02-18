@@ -1,4 +1,4 @@
-1. 
+####1. ###########
 
 sudo dnf config-manager --set-enabled crb
 
@@ -11,9 +11,9 @@ sudo dnf groupinstall "Server with GUI" --->>>> VERIFY
 
 ##############################################################
 
-3. Configure X2Go to Use GNOME:
+#####3. Configure X2Go to Use GNOME:#############
 
-When setting up a new session in the X2Go client:
+######When setting up a new session in the X2Go client:#########
 
 Session Type: Select "Custom Desktop"
 Command: Enter gnome-session
